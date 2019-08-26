@@ -9,3 +9,11 @@ The process of the final machine will be the following:
   * Create a vector for the boost algorithm from the base machines classifications for every sample.
   * Run boost algorithm with RF on sample boost vectors.
   * Return boost algorithm accuracy.
+  
+all_random.png:
+ * AdaBoostClassifier: 8171 - true, 568 - false, accuracy -  93.5%.
+ * AdaBoostRegressor: 8414 - true, 325 - false, accuracy -  96.28%.
+ * XGBClassifier: 8180 - true, 559- false, accuracy -  93.6%.
+ * XGBRegressor: 8216 - true, 523 - false, accuracy -  94.01%.
+ * Random Forest Classifier: 7868 - true, 871 - false, accuracy -  90.03%.
+ * Random Forest Regressor: 8216 - true, 523 - false, accuracy -  94.01%.
